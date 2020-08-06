@@ -1,3 +1,16 @@
+certifi==2020.6.20
+chardet==3.0.4
+decorator==4.4.2
+idna==2.10
+imageio==2.9.0
+imageio-ffmpeg==0.4.2
+moviepy==1.0.3
+numpy==1.19.0
+Pillow==7.2.0
+proglog==0.1.9
 python-dotenv==0.13.0
 pytube3==9.6.4
+requests==2.24.0
+tqdm==4.47.0
 typing-extensions==3.7.4.2
+urllib3==1.25.9

@@ -1,4 +1,5 @@
 downloads/
+outputs/
 
 # Byte-com.txtpiled  optimized  DLL files
 __pycache__
