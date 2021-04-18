@@ -1,4 +1,4 @@
-from yt_concate.pipeline.steps.preflight import Preflight
+from pipeline.steps.preflight import Preflight
 from yt_concate.pipeline.steps.get_video_list import GetVideoList
 from yt_concate.pipeline.steps.initialize_yt import InitializeYT
 from yt_concate.pipeline.steps.download_captions import DownloadCaptions
