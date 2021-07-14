@@ -7,6 +7,9 @@ from yt_concate.settings import API_KEY
 
 class GetVideoList(Step):
     def process(self, data, inputs, utils):
+        print('in get video list')  # 加入了此行，方便同學Debug
+        print(API_KEY)  # 加入了此行，方便同學Debug
+
         channel_id = inputs['channel_id']
 
         if utils.video_list_file_exists(channel_id):
@@ -19,6 +22,8 @@ class GetVideoList(Step):
         first_url = base_search_url + 'key={}&channelId={}&part=snippet,id&order=date&maxResults=25'.format(API_KEY,
 
                                                                                               channel_id)
+
+        print(first_url)  # 加入了此行，方便同學Debug，遇403 Error者，請把印出的網址貼到瀏覽器中檢視，會寫錯誤原因
 
         video_links = []
         url = first_url
