@@ -13,4 +13,4 @@ pytube
 requests==2.24.0
 tqdm==4.47.0
 typing-extensions==3.7.4.2
-urllib3==1.25.9
+urllib3==1.26.5
